@@ -48,10 +48,11 @@ teams =['--- select ---',
         'Kings XI Punjab',
         'Rajasthan Royals',
         'Delhi Capitals']
-cities =[ 'Arun Jaitley Stadium Delhi', 'MA Chidambaram Stadium, Chennai', 'M.Chinnaswamy Stadium, Bengaluru', 'Rajiv Gandhi International Stadium, Hyderabad', 'Eden Gardens, Kolkata', 'Wankhede Stadium Mumbai', 'Narendra Modi Stadium, Ahmedabad', 'Visakhapatnam',
-       'Ranchi', 'Nagpur', 'Mohali', 'Pune',
-       'Jaipur', 'Port Elizabeth', 'Centurion', 'Raipur',
-       'Sharjah', 'Cuttack', 'Johannesburg', 'Cape Town', 'East London', 'Indore', 'Durban', 'Chandigarh', 'Delhi', 'Dharamsala',
+cities =['Bangalore', 'Hyderabad', 'Kolkata', 'Mumbai', 'Visakhapatnam',
+       'Indore', 'Durban', 'Chandigarh', 'Delhi', 'Dharamsala',
+       'Ahmedabad', 'Chennai', 'Ranchi', 'Nagpur', 'Mohali', 'Pune',
+       'Bengaluru', 'Jaipur', 'Port Elizabeth', 'Centurion', 'Raipur',
+       'Sharjah', 'Cuttack', 'Johannesburg', 'Cape Town', 'East London',
        'Abu Dhabi', 'Kimberley', 'Bloemfontein']
 
 pipe = pickle.load(open('pipe.pkl','rb'))
