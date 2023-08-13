@@ -48,18 +48,17 @@ teams =['--- select ---',
         'Chennai Super Kings',
         'Rajasthan Royals',
         'Delhi Capitals']
-cities =['Bangalore', 'Hyderabad', 'Kolkata', 'Mumbai', 'Visakhapatnam',
-       'Indore', 'Durban', 'Chandigarh', 'Delhi', 'Dharamsala',
-       'Ahmedabad', 'Chennai', 'Ranchi', 'Nagpur', 'Mohali', 'Pune',
-       'Bengaluru', 'Jaipur', 'Port Elizabeth', 'Centurion', 'Raipur',
-       'Sharjah', 'Cuttack', 'Johannesburg', 'Cape Town', 'East London',
+cities =['Arun Jaitley Stadium Delhi', 'Rajiv Gandhi International Stadium, Hyderabad', 'Eden Gardens, Kolkata', 'Wankhede Stadium Mumbai', 'Visakhapatnam',
+       'Ahmedabad', 'MA Chidambaram StadiumChennai', 'Ranchi', 'Nagpur', 'Mohali', 'Pune',
+       'M.Chinnaswamy Stadium, Bengaluru', 'Jaipur', 'Port Elizabeth', 'Centurion', 'Raipur',
+       'Sharjah', 'Cuttack', 'Johannesburg', 'Cape Town', 'East London', 'Indore', 'Durban', 'Chandigarh', 'Delhi', 'Dharamsala',
        'Abu Dhabi', 'Kimberley', 'Bloemfontein']
 
 pipe = pickle.load(open('pipe.pkl','rb'))
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown("""
-    # **IPL VICTORY PREDICTOR**            
+    # ** VICTORY PREDICTOR (IPL)**            
 """)
 # st.title("IPL Victory Predictor")
 
@@ -67,11 +66,11 @@ col1, col2 = st.columns(2)
 
 with col1:
    
-   batting_team =  st.selectbox('Select Batting Team',teams)
+   batting_team =  st.selectbox('Select Chasing(second Batting) Team',teams)
 
 with col2:
     if batting_team == '--- select ---':
-        bowling_team = st.selectbox('Select Bowling Team', teams)
+        bowling_team = st.selectbox('Select Second Bowling Team', teams)
     else:
         filtered_teams = [team for team in teams if team != batting_team]
         bowling_team = st.selectbox('Select Bowling Team', filtered_teams)
