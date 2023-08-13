@@ -70,7 +70,7 @@ with col1:
 
 with col2:
     if batting_team == '--- select ---':
-        bowling_team = st.selectbox('Select Second Bowling Team', teams)
+        bowling_team = st.selectbox('Select Defending Team', teams)
     else:
         filtered_teams = [team for team in teams if team != batting_team]
         bowling_team = st.selectbox('Select Bowling Team', filtered_teams)
