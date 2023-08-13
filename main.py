@@ -58,7 +58,7 @@ pipe = pickle.load(open('pipe.pkl','rb'))
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown("""
-          **VICTORY PREDICTOR (IPL)**            
+          #**VICTORY PREDICTOR (IPL)**            
 """)
 # st.title("IPL Victory Predictor")
 
