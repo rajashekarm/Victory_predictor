@@ -48,7 +48,7 @@ teams =['--- select ---',
         'Kings XI Punjab',
         'Rajasthan Royals',
         'Delhi Capitals']
-cities =['MA Chidambaram Stadium, Chennai', 'Arun Jaitley Stadium Delhi', 'M.Chinnaswamy Stadium, Bengaluru', 'Rajiv Gandhi International Stadium, Hyderabad', 'Eden Gardens, Kolkata', 'Wankhede Stadium Mumbai', 'Narendra Modi Stadium, Ahmedabad', 'Visakhapatnam',
+cities =[ 'Arun Jaitley Stadium Delhi', 'MA Chidambaram Stadium, Chennai', 'M.Chinnaswamy Stadium, Bengaluru', 'Rajiv Gandhi International Stadium, Hyderabad', 'Eden Gardens, Kolkata', 'Wankhede Stadium Mumbai', 'Narendra Modi Stadium, Ahmedabad', 'Visakhapatnam',
        'Ranchi', 'Nagpur', 'Mohali', 'Pune',
        'Jaipur', 'Port Elizabeth', 'Centurion', 'Raipur',
        'Sharjah', 'Cuttack', 'Johannesburg', 'Cape Town', 'East London', 'Indore', 'Durban', 'Chandigarh', 'Delhi', 'Dharamsala',
