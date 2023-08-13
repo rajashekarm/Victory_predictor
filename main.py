@@ -67,7 +67,7 @@ col1, col2 = st.columns(2)
 
 with col1:
    
-   batting_team =  st.selectbox('Select Chasing(second Batting) Team',teams)
+   batting_team =  st.selectbox('Select Chasing(Second Batting) Team',teams)
 
 with col2:
     if batting_team == '--- select ---':
