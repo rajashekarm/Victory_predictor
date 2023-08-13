@@ -40,16 +40,16 @@ right: 2rem;
 </style>
 """
 teams =['--- select ---',
-        'Sunrisers Hyderabad',
-        'Mumbai Indians',
-        'Kolkata Knight Riders',
-        'Royal Challengers Bangalore',
-        'Kings XI Punjab',
         'Chennai Super Kings',
+        'Royal Challengers Bangalore', 
+        'Mumbai Indians',
+        'Sunrisers Hyderabad',
+        'Kolkata Knight Riders',
+        'Kings XI Punjab',
         'Rajasthan Royals',
         'Delhi Capitals']
-cities =['Arun Jaitley Stadium Delhi','MA Chidambaram Stadium, Chennai',  'M.Chinnaswamy Stadium, Bengaluru', 'Rajiv Gandhi International Stadium, Hyderabad', 'Eden Gardens, Kolkata', 'Wankhede Stadium Mumbai', 'Visakhapatnam',
-       'Ahmedabad', 'Ranchi', 'Nagpur', 'Mohali', 'Pune',
+cities =['MA Chidambaram Stadium, Chennai', 'Arun Jaitley Stadium Delhi', 'M.Chinnaswamy Stadium, Bengaluru', 'Rajiv Gandhi International Stadium, Hyderabad', 'Eden Gardens, Kolkata', 'Wankhede Stadium Mumbai','Narendra Modi Stadium, Ahmedabad' 'Visakhapatnam',
+       , 'Ranchi', 'Nagpur', 'Mohali', 'Pune',
        'Jaipur', 'Port Elizabeth', 'Centurion', 'Raipur',
        'Sharjah', 'Cuttack', 'Johannesburg', 'Cape Town', 'East London', 'Indore', 'Durban', 'Chandigarh', 'Delhi', 'Dharamsala',
        'Abu Dhabi', 'Kimberley', 'Bloemfontein']
