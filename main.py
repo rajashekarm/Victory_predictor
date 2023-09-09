@@ -1,8 +1,10 @@
 import base64
 import streamlit as st
 import pickle
-# from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score
 import pandas as pd
+
+
 @st.cache_data
 def get_img_as_base64(file):
     with open(file, "rb") as f:
