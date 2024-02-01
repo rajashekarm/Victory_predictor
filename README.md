@@ -70,7 +70,7 @@ Project demo :- [IPL victory predictor using python](https://youtu.be/t63T4-ZvMh
 
 ## Authors
 
-- [@Aditya Wadkar](https://www.github.com/AdityaWadkar)
+- [@Rajashekar M](https://www.github.com/rajashekarm)
 
 
 🌟 Don't forget to give this repository a star if you found it helpful! 🌟
