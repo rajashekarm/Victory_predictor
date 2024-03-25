@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import pandas as pd
 
 
-@st.cache_data
+@st.cache(allow_output_mutation=True)
 def get_img_as_base64(file):
     with open(file, "rb") as f:
         data = f.read()
